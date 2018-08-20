@@ -21,9 +21,7 @@ PRODUCT_PACKAGES := \
 	CubeLiveWallpapers \
 	CustomLocale \
 	Development \
-	Dialer \
 	Gallery2 \
-	Launcher3QuickStep \
 	Camera2 \
 	librs_jni \
 	LiveWallpapersPicker \
@@ -38,8 +36,7 @@ PRODUCT_PACKAGES := \
 	SystemUI \
 	SysuiDarkThemeOverlay \
 	EasterEgg \
-	WallpaperPicker \
-	WidgetPreview \
+	WidgetPreview
 
 # Define the host tools and libs that are parts of the SDK.
 -include sdk/build/product_sdk.mk
